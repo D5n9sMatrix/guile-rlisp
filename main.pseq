@@ -1,0 +1,132 @@
+{
+	"steps": [
+		{
+			"id": "start",
+			"name": "Start",
+			"type": "start",
+			"x": 10,
+			"y": 10,
+			"uuid": 1,
+			"target": 2
+		},
+		{
+			"x": 10,
+			"y": 80,
+			"uuid": 2,
+			"file": "",
+			"id": "2780",
+			"name": "home",
+			"type": "condition",
+			"r": "home.r",
+			"language": "r",
+			"target": 3,
+			"falsetarget": 17
+		},
+		{
+			"x": 250,
+			"y": 160,
+			"uuid": 3,
+			"file": "script.r",
+			"id": "2721",
+			"name": "script",
+			"type": "rscript",
+			"target": 5
+		},
+		{
+			"x": 490,
+			"y": 160,
+			"uuid": 5,
+			"file": "TForm2.r",
+			"id": "2784",
+			"name": "TForm2",
+			"type": "gui",
+			"target": 13
+		},
+		{
+			"x": 10,
+			"y": 230,
+			"uuid": 7,
+			"file": "",
+			"id": "2780",
+			"name": "settings",
+			"type": "condition",
+			"r": "settings.r",
+			"language": "r",
+			"target": 8,
+			"falsetarget": 9
+		},
+		{
+			"x": 10,
+			"y": 340,
+			"uuid": 8,
+			"file": "sequence.r",
+			"id": "4380",
+			"name": "sequence",
+			"target": "",
+			"type": "sequence"
+		},
+		{
+			"x": 250,
+			"y": 290,
+			"uuid": 9,
+			"file": "console.r",
+			"id": "2780",
+			"name": "console",
+			"type": "rscript",
+			"target": 10
+		},
+		{
+			"x": 250,
+			"y": 420,
+			"uuid": 10,
+			"file": "TForm1.r",
+			"id": "2784",
+			"name": "TForm1",
+			"type": "gui",
+			"target": 15
+		},
+		{
+			"x": 520,
+			"y": 430,
+			"uuid": 13,
+			"file": "",
+			"id": "",
+			"name": "",
+			"target": "",
+			"type": "end"
+		},
+		{
+			"x": 430,
+			"y": 350,
+			"uuid": 15,
+			"file": "develop.r",
+			"id": "2780",
+			"name": "develop",
+			"target": "",
+			"type": "sequence"
+		},
+		{
+			"x": 260,
+			"y": 30,
+			"uuid": 17,
+			"file": "",
+			"id": "2780",
+			"name": "tools",
+			"type": "condition",
+			"r": "tools.r",
+			"language": "r",
+			"target": 3,
+			"falsetarget": 18
+		},
+		{
+			"x": 500,
+			"y": 50,
+			"uuid": 18,
+			"file": "run.r",
+			"id": "2780",
+			"name": "run",
+			"target": "",
+			"type": "sequence"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"start": "main.pseq",
+	"name": "quile-rlisp",
+	"company": "none",
+	"description": "language guile rlisp",
+	"wd": "program",
+	"logo": "logo.jpg",
+	"css": "",
+	"list": "sidebar",
+	"rconsole": "r",
+	"outputfolder": "{{name}}_{{datetime}}",
+	"history": [
+		{
+			"date": "09/10/2023",
+			"version": "1.0",
+			"author": "guile",
+			"changelog": "language rlisp"
+		}
+	],
+	"created": "2023-10-09T16:18:24-03:00",
+	"version": "4.5.0"
+}
