@@ -38,7 +38,7 @@
 			"uuid": 5,
 			"file": "TForm2.r",
 			"id": "2784",
-			"name": "TForm2",
+			"name": "TForm1",
 			"type": "gui",
 			"target": 13
 		},
@@ -81,7 +81,7 @@
 			"uuid": 10,
 			"file": "TForm1.r",
 			"id": "2784",
-			"name": "TForm1",
+			"name": "TForm2",
 			"type": "gui",
 			"target": 15
 		},
